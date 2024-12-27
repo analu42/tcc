@@ -22,4 +22,10 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.homepage, name='homepage'),
     path('about/', views.about, name="about"),
+    path('story1/', views.story1, name="story1"),
+    path('story2/', views.story2, name="story2"),
+    path('story3/', views.story3, name="story3"),
+    path('story4/', views.story4, name="story4"),
+    path('choose/', views.choose, name="choose"),
+    path('chat/', views.chat, name="chat"),
 ]
