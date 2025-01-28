@@ -1,5 +1,7 @@
 # from django.http import HttpResponse
 from django.shortcuts import render
+from django.http import JsonResponse
+from .models import Message
 
 def homepage(request):
     # return HttpResponse('O Jogo da Imitação')
@@ -26,3 +28,4 @@ def choose(request):
 
 def chat(request):
     return render(request, 'chat.html')
+
